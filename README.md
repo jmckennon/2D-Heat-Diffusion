@@ -1,4 +1,5 @@
 Install MPI Java (FAQ: https://www.open-mpi.org/faq/?category=java)
+
 Set up runtime environment with multiple CPUs/machines (works easily with VMs)
 
 ```javac Heat2D_mpi.java
