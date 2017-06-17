@@ -3,14 +3,14 @@
 //Last Edited: 16 June 2017
 
 // -----------------------------------------------------------------------------
-// This program is designed to simulate 2D heat diffusion by producing a
-// text-based output. It implements the Forward Euler method to accomplish the
-// mathematical aspects of the simulation. It is optimized for a distributed system
-// and uses MPI Java to allow the nodes to communicate with each other.
-// "Node 0" is considered the master node and will typically do slightly more
-// work than other nodes.
+// This program is designed to simulate 2D heat diffusion by producing
+// a text-based output. It implements the Forward Euler method to accomplish the
+// mathematical aspects of the simulation. It is optimized for a parallel system
+// and uses MPI Java to allow the CPUs to communicate with each other.
+// "CPU 0" is considered the master CPU and will typically do slightly more
+// work than other CPUs.
 //
-// usage: "java Heat2D_mpi size max_time heat_time interval"
+// usage: "prunjava #cpus Heat2D_mpi size max_time heat_time interval"
 //
 // -----------------------------------------------------------------------------
 
